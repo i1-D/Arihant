@@ -1,0 +1,12 @@
+{
+  "name": "arihant-enterprise",
+  "version": "1.0.0",
+  "description": "Arihant Enterprise website",
+  "scripts": {
+    "start": "live-server --port=3000 --open=index.html",
+    "dev": "live-server --port=3000"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}

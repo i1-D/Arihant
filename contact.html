@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us – Arihant Enterprise</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <div id="nav-placeholder"></div>
+
+  <!-- ===== CONTACT HERO ===== -->
+  <section class="contact-hero">
+    <div class="contact-hero-overlay"></div>
+    <div class="contact-hero-content">
+      <h1 class="contact-hero-title">Contact Us</h1>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT FORM SECTION ===== -->
+  <section class="contact-section">
+    <div class="contact-card">
+      <h2 class="contact-card-heading">Got a question?<br />We'd love to hear</h2>
+      <form class="contact-form" id="contactForm" novalidate>
+        <div class="form-row">
+          <div class="form-group">
+            <label class="form-label" for="helpWith">What can we help with?*</label>
+            <input class="form-input" type="text" id="helpWith" name="helpWith" placeholder="" required />
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="fullName">Full Name</label>
+            <input class="form-input" type="text" id="fullName" name="fullName" placeholder="" />
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label class="form-label" for="mobile">Mobile No.</label>
+            <input class="form-input" type="tel" id="mobile" name="mobile" placeholder="" />
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="email">Email</label>
+            <input class="form-input" type="email" id="email" name="email" placeholder="" />
+          </div>
+        </div>
+        <div class="form-group form-group--full">
+          <label class="form-label" for="message">Message</label>
+          <textarea class="form-textarea" id="message" name="message" rows="6"></textarea>
+        </div>
+        <div class="form-actions">
+          <button type="submit" class="btn form-submit-btn">Submit</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <div id="footer-placeholder"></div>
+
+  <script src="components.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
