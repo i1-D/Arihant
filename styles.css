@@ -67,7 +67,8 @@ ul { list-style: none; }
   font-weight: 700;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  border: 1px solid #fff;
+  background: rgb(0 0 0 / 20%);
+  border-radius: 32px;
   color: #fff;
   transition: all 0.3s;
 }
@@ -81,15 +82,13 @@ ul { list-style: none; }
   position: fixed;
   top: 0; left: 0; right: 0;
   z-index: 1000;
-  background: linear-gradient(90deg, #0d1040 0%, #2a0a22 50%, #5c0808 100%);
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
+  background: linear-gradient(90deg, #062486 0%, #59144b 50%, #c20003 100%);
   border-bottom: 1px solid rgba(255,255,255,0.06);
   transition: background 0.3s;
 }
 
 .navbar.scrolled {
-  background: linear-gradient(90deg, #080b2e 0%, #200818 50%, #480606 100%);
+  background: linear-gradient(90deg, #062486 0%, #59144b 50%, #c20003 100%);
 }
 
 .nav-inner {
@@ -542,13 +541,6 @@ ul { list-style: none; }
   position: relative;
 }
 
-.footer::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: rgba(8, 4, 12, 0.68);
-}
-
 .footer-inner {
   position: relative;
   z-index: 2;
@@ -942,18 +934,12 @@ ul { list-style: none; }
 /* ===== CONTACT HERO ===== */
 .contact-hero {
   position: relative;
-  height: 280px;
+  height: 340px;
   display: flex;
   align-items: center;
   justify-content: center;
   background: url('images/Asset 5.png') center center / cover no-repeat;
   margin-top: 64px;
-}
-
-.contact-hero-overlay {
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(135deg, rgba(5,30,60,0.6) 0%, rgba(20,5,40,0.5) 100%);
 }
 
 .contact-hero-content {
@@ -971,18 +957,22 @@ ul { list-style: none; }
 
 /* ===== CONTACT SECTION ===== */
 .contact-section {
-  background: #f4f6f9;
+  background: transparent;
   padding: 0 48px 80px;
-  margin-top: -40px;
+  margin-top: 0;
+  position: relative;
+  z-index: 10;
 }
 
 .contact-card {
   max-width: 900px;
-  margin: 0 auto;
+  margin: -110px auto 0;
   background: #fff;
   border-radius: 12px;
-  box-shadow: 0 8px 48px rgba(0,0,0,0.1);
+  box-shadow: 0 8px 48px rgba(0,0,0,0.15);
   padding: 48px 52px 52px;
+  position: relative;
+  z-index: 10;
 }
 
 .contact-card-heading {
@@ -1044,7 +1034,7 @@ ul { list-style: none; }
 }
 
 .form-submit-btn {
-  background: #1a5fa8;
+  background: linear-gradient(90deg, #062486 0%, #59144b 50%, #c20003 100%);
   color: #fff;
   border: none;
   border-radius: 6px;
@@ -1165,6 +1155,7 @@ ul { list-style: none; }
 
   .contact-card {
     padding: 32px 24px 36px;
+    margin-top: -80px;
   }
 
   .contact-form .form-row {
@@ -1198,6 +1189,6 @@ ul { list-style: none; }
   }
 
   .contact-hero {
-    height: 220px;
+    height: 260px;
   }
 }
