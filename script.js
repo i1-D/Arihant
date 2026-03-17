@@ -34,6 +34,15 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   });
 
+  // ===== FEATURE CARD TOGGLE =====
+  var featureCards = document.querySelectorAll('.feature-card');
+  featureCards.forEach(function (card) {
+    card.addEventListener('click', function () {
+      featureCards.forEach(function (c) { c.classList.remove('feature-card--highlight'); });
+      card.classList.add('feature-card--highlight');
+    });
+  });
+
   // ===== CONTACT FORM SUBMIT =====
   const contactForm = document.getElementById('contactForm');
   if (contactForm) {
