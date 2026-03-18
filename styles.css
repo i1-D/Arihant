@@ -224,12 +224,11 @@ ul { list-style: none; }
 }
 
 .hero-title {
-  font-size: clamp(2rem, 5vw, 3.5rem);
+  font-size: clamp(2rem, 5vw, 3rem);
   font-weight: 800;
   color: #fff;
-  line-height: 1.15;
+  line-height: 1.5;
   margin-bottom: 32px;
-  max-width: 560px;
 }
 
 /* ===== MARQUEE ===== */
@@ -635,11 +634,11 @@ ul { list-style: none; }
   width: 36px;
   height: 36px;
   border-radius: 50%;
-  background: rgba(255,255,255,0.1);
+  background: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: rgba(255,255,255,0.7);
+  color: #d00000;
   transition: background 0.2s, color 0.2s;
 }
 .social-icon svg { width: 16px; height: 16px; }

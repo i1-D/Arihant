@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', function () {
   // ===== FEATURE CARD TOGGLE =====
   var featureCards = document.querySelectorAll('.feature-card');
   featureCards.forEach(function (card) {
-    card.addEventListener('click', function () {
+    card.addEventListener('mouseenter', function () {
       featureCards.forEach(function (c) { c.classList.remove('feature-card--highlight'); });
       card.classList.add('feature-card--highlight');
     });
