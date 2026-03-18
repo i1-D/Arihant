@@ -1382,7 +1382,7 @@ ul { list-style: none; }
 
   /* Products redesign */
   .prod-welcome { padding: 28px 24px 32px; }
-  .prod-cards-section { padding: 0 24px 60px; }
+  .prod-cards-section { padding: 24px 24px; }
   .prod-cards-inner { grid-template-columns: 1fr 1fr; gap: 24px; }
   .prod-innovation { padding: 56px 24px; }
   .prod-distributors { padding: 56px 24px 60px; }
