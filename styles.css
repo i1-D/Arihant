@@ -204,7 +204,7 @@ ul { list-style: none; }
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background: url('images/Asset 2.png') center center / cover no-repeat;
+  background: url('images/Asset 2.avif') center center / cover no-repeat;
 }
 
 .hero-overlay {
@@ -390,7 +390,7 @@ ul { list-style: none; }
 .cta-banner {
   position: relative;
   padding: 100px 0;
-  background: url('images/Asset 4.png') center center / cover no-repeat;
+  background: url('images/Asset 4.avif') center center / cover no-repeat;
 }
 
 .cta-overlay {
@@ -546,7 +546,7 @@ ul { list-style: none; }
 
 /* ===== FOOTER ===== */
 .footer {
-  background: url('images/footer.png') center center / cover no-repeat;
+  background: url('images/footer.avif') center center / cover no-repeat;
   position: relative;
 }
 
@@ -667,7 +667,7 @@ ul { list-style: none; }
 }
 
 .page-hero--products {
-  background: url('images/Asset 4.png') center center / cover no-repeat;
+  background: url('images/Asset 4.avif') center center / cover no-repeat;
   position: relative;
   max-width: 100%;
   padding: 140px 48px 80px;
@@ -935,7 +935,7 @@ ul { list-style: none; }
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url('images/Asset 5.png') center center / cover no-repeat;
+  background: url('images/Asset 5.avif') center center / cover no-repeat;
   margin-top: 64px;
 }
 
