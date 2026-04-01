@@ -492,8 +492,14 @@ ul { list-style: none; }
 
 .v-card-img {
   height: 120px;
-  background: #e8e8e8;
-  background: linear-gradient(135deg, #dde3ec, #c8cfd8);
+  overflow: hidden;
+}
+
+.v-card-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 
 .v-card-body {
@@ -859,31 +865,11 @@ ul { list-style: none; }
   left: 80px;
 }
 
-.team-deco-circle {
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
-  background: #06218a;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  top: 50px;
-  left: 60px;
-}
-
-.team-deco-circle-inner {
-  width: 28px;
-  height: 28px;
-  border-radius: 50%;
-  background: #cc0000;
-}
-
 .team-photos-wrap {
   position: relative;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  min-height: 420px;
+  min-height: 380px;
   z-index: 2;
 }
 
@@ -916,7 +902,6 @@ ul { list-style: none; }
 }
 
 .team-tagline {
-  margin-top: 24px;
   text-align: right;
 }
 
